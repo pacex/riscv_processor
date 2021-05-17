@@ -1,0 +1,7 @@
+`define CSR_RDCYCLE_LOW     32'hC00
+`define CSR_RDCYCLE_HIGH    32'hC80
+`define CSR_RDTIME_LOW      32'hC01
+`define CSR_RDTIME_HIGH     32'hC81
+`define CSR_RDINSTRET_LOW   32'hC02
+`define CSR_RDINSTRET_HIGH  32'hC82
+`define CSR_MHARTID         32'hF14

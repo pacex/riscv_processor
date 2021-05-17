@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="system" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="123019000000fs"></ZoomStartTime>
+      <ZoomEndTime time="125617000001fs"></ZoomEndTime>
+      <Cursor1Time time="123705000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+      <marker label="" time="3665000000" />
+   </wave_markers>
+   <wvobject type="group" fp_name="group40">
+      <obj_property name="label">Processor</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group212">
+         <obj_property name="label">PROC0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/proc0/INSTR_BUS">
+            <obj_property name="ElementShortName">INSTR_BUS[31:0]</obj_property>
+            <obj_property name="ObjectShortName">INSTR_BUS[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc0/PC_BUS">
+            <obj_property name="ElementShortName">PC_BUS[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_BUS[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="group216">
+            <obj_property name="label">REGSET</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/A_D">
+               <obj_property name="ElementShortName">A_D[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_D[4:0]</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/A_Q0">
+               <obj_property name="ElementShortName">A_Q0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_Q0[4:0]</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/A_Q1">
+               <obj_property name="ElementShortName">A_Q1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_Q1[4:0]</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/Q0">
+               <obj_property name="ElementShortName">Q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q0[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/Q1">
+               <obj_property name="ElementShortName">Q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q1[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/REGSET/REG">
+               <obj_property name="ElementShortName">REG[31:1][31:0]</obj_property>
+               <obj_property name="ObjectShortName">REG[31:1][31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group218">
+            <obj_property name="label">ALU</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc0/ALU/Q">
+               <obj_property name="ElementShortName">Q[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/ALU/S">
+               <obj_property name="ElementShortName">S[5:0]</obj_property>
+               <obj_property name="ObjectShortName">S[5:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/ALU/A">
+               <obj_property name="ElementShortName">A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">A[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/ALU/B">
+               <obj_property name="ElementShortName">B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">B[31:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group219">
+            <obj_property name="label">CSR</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="group220">
+            <obj_property name="label">CTRL</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc0/CTRL/state">
+               <obj_property name="ElementShortName">state[4:0]</obj_property>
+               <obj_property name="ObjectShortName">state[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/REG_WRITE">
+               <obj_property name="ElementShortName">REG_WRITE</obj_property>
+               <obj_property name="ObjectShortName">REG_WRITE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/INSTR_REQ">
+               <obj_property name="ElementShortName">INSTR_REQ</obj_property>
+               <obj_property name="ObjectShortName">INSTR_REQ</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/DATA_REQ">
+               <obj_property name="ElementShortName">DATA_REQ</obj_property>
+               <obj_property name="ObjectShortName">DATA_REQ</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/DATA_WRITE_ENABLE">
+               <obj_property name="ElementShortName">DATA_WRITE_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">DATA_WRITE_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/PC_ENABLE">
+               <obj_property name="ElementShortName">PC_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">PC_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/BACKUP_PC">
+               <obj_property name="ElementShortName">BACKUP_PC</obj_property>
+               <obj_property name="ObjectShortName">BACKUP_PC</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/RESTORE_PC">
+               <obj_property name="ElementShortName">RESTORE_PC</obj_property>
+               <obj_property name="ObjectShortName">RESTORE_PC</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/BRANCH">
+               <obj_property name="ElementShortName">BRANCH</obj_property>
+               <obj_property name="ObjectShortName">BRANCH</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/MUL_BUFFER_ENABLE">
+               <obj_property name="ElementShortName">MUL_BUFFER_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">MUL_BUFFER_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/IRQ">
+               <obj_property name="ElementShortName">IRQ</obj_property>
+               <obj_property name="ObjectShortName">IRQ</obj_property>
+               <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/IRQ_ACK">
+               <obj_property name="ElementShortName">IRQ_ACK</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ACK</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/IRQ_ID">
+               <obj_property name="ElementShortName">IRQ_ID[4:0]</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ID[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/IRQ_ACK_ID">
+               <obj_property name="ElementShortName">IRQ_ACK_ID[4:0]</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ACK_ID[4:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/INSTRET">
+               <obj_property name="ElementShortName">INSTRET</obj_property>
+               <obj_property name="ObjectShortName">INSTRET</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc0/CTRL/SECONDARY_MEM_ACCESS">
+               <obj_property name="ElementShortName">SECONDARY_MEM_ACCESS</obj_property>
+               <obj_property name="ObjectShortName">SECONDARY_MEM_ACCESS</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc0/CTRL/ALU_CTRL">
+               <obj_property name="ElementShortName">ALU_CTRL[5:0]</obj_property>
+               <obj_property name="ObjectShortName">ALU_CTRL[5:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="divider221" type="divider">
+            <obj_property name="label">Test Program</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc0/REGSET/REG[30]">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc0/REGSET/REG[31]">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group213">
+         <obj_property name="label">PROC1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/proc1/INSTR_BUS">
+            <obj_property name="ElementShortName">INSTR_BUS[31:0]</obj_property>
+            <obj_property name="ObjectShortName">INSTR_BUS[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc1/PC_BUS">
+            <obj_property name="ElementShortName">PC_BUS[31:0]</obj_property>
+            <obj_property name="ObjectShortName">PC_BUS[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="group283">
+            <obj_property name="label">REGSET</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/A_D">
+               <obj_property name="ElementShortName">A_D[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_D[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/A_Q0">
+               <obj_property name="ElementShortName">A_Q0[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_Q0[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/A_Q1">
+               <obj_property name="ElementShortName">A_Q1[4:0]</obj_property>
+               <obj_property name="ObjectShortName">A_Q1[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/Q0">
+               <obj_property name="ElementShortName">Q0[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q0[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/Q1">
+               <obj_property name="ElementShortName">Q1[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q1[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/REGSET/REG">
+               <obj_property name="ElementShortName">REG[31:1][31:0]</obj_property>
+               <obj_property name="ObjectShortName">REG[31:1][31:0]</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group284">
+            <obj_property name="label">ALU</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc1/ALU/Q">
+               <obj_property name="ElementShortName">Q[31:0]</obj_property>
+               <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/ALU/S">
+               <obj_property name="ElementShortName">S[5:0]</obj_property>
+               <obj_property name="ObjectShortName">S[5:0]</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+               <obj_property name="CustomSignalColor">#FF0000</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/ALU/A">
+               <obj_property name="ElementShortName">A[31:0]</obj_property>
+               <obj_property name="ObjectShortName">A[31:0]</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/ALU/B">
+               <obj_property name="ElementShortName">B[31:0]</obj_property>
+               <obj_property name="ObjectShortName">B[31:0]</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject type="group" fp_name="group285">
+            <obj_property name="label">CSR</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+         </wvobject>
+         <wvobject type="group" fp_name="group286">
+            <obj_property name="label">CTRL</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+            <obj_property name="isExpanded"></obj_property>
+            <wvobject type="array" fp_name="/system/proc1/CTRL/state">
+               <obj_property name="ElementShortName">state[4:0]</obj_property>
+               <obj_property name="ObjectShortName">state[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+               <obj_property name="Radix">BINARYRADIX</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/REG_WRITE">
+               <obj_property name="ElementShortName">REG_WRITE</obj_property>
+               <obj_property name="ObjectShortName">REG_WRITE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/INSTR_REQ">
+               <obj_property name="ElementShortName">INSTR_REQ</obj_property>
+               <obj_property name="ObjectShortName">INSTR_REQ</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/DATA_REQ">
+               <obj_property name="ElementShortName">DATA_REQ</obj_property>
+               <obj_property name="ObjectShortName">DATA_REQ</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/DATA_WRITE_ENABLE">
+               <obj_property name="ElementShortName">DATA_WRITE_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">DATA_WRITE_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/PC_ENABLE">
+               <obj_property name="ElementShortName">PC_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">PC_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/BACKUP_PC">
+               <obj_property name="ElementShortName">BACKUP_PC</obj_property>
+               <obj_property name="ObjectShortName">BACKUP_PC</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/RESTORE_PC">
+               <obj_property name="ElementShortName">RESTORE_PC</obj_property>
+               <obj_property name="ObjectShortName">RESTORE_PC</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/BRANCH">
+               <obj_property name="ElementShortName">BRANCH</obj_property>
+               <obj_property name="ObjectShortName">BRANCH</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/MUL_BUFFER_ENABLE">
+               <obj_property name="ElementShortName">MUL_BUFFER_ENABLE</obj_property>
+               <obj_property name="ObjectShortName">MUL_BUFFER_ENABLE</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/IRQ">
+               <obj_property name="ElementShortName">IRQ</obj_property>
+               <obj_property name="ObjectShortName">IRQ</obj_property>
+               <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/IRQ_ACK">
+               <obj_property name="ElementShortName">IRQ_ACK</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ACK</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/IRQ_ID">
+               <obj_property name="ElementShortName">IRQ_ID[4:0]</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ID[4:0]</obj_property>
+               <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="array" fp_name="/system/proc1/IRQ_ACK_ID">
+               <obj_property name="ElementShortName">IRQ_ACK_ID[4:0]</obj_property>
+               <obj_property name="ObjectShortName">IRQ_ACK_ID[4:0]</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/INSTRET">
+               <obj_property name="ElementShortName">INSTRET</obj_property>
+               <obj_property name="ObjectShortName">INSTRET</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+            <wvobject type="logic" fp_name="/system/proc1/CTRL/SECONDARY_MEM_ACCESS">
+               <obj_property name="ElementShortName">SECONDARY_MEM_ACCESS</obj_property>
+               <obj_property name="ObjectShortName">SECONDARY_MEM_ACCESS</obj_property>
+               <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+               <obj_property name="UseCustomSignalColor">true</obj_property>
+            </wvobject>
+         </wvobject>
+         <wvobject fp_name="divider287" type="divider">
+            <obj_property name="label">Test Program</obj_property>
+            <obj_property name="DisplayName">label</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc1/REGSET/REG[30]">
+            <obj_property name="ElementShortName">[30][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[30][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/proc1/REGSET/REG[31]">
+            <obj_property name="ElementShortName">[31][31:0]</obj_property>
+            <obj_property name="ObjectShortName">[31][31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group39">
+      <obj_property name="label">System Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/system/BOARD_CLK">
+         <obj_property name="ElementShortName">BOARD_CLK</obj_property>
+         <obj_property name="ObjectShortName">BOARD_CLK</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/BOARD_RESN">
+         <obj_property name="ElementShortName">BOARD_RESN</obj_property>
+         <obj_property name="ObjectShortName">BOARD_RESN</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_LED">
+         <obj_property name="ElementShortName">BOARD_LED[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_LED[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_LED_RGB0">
+         <obj_property name="ElementShortName">BOARD_LED_RGB0[2:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_LED_RGB0[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_LED_RGB1">
+         <obj_property name="ElementShortName">BOARD_LED_RGB1[2:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_LED_RGB1[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_BUTTON">
+         <obj_property name="ElementShortName">BOARD_BUTTON[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_BUTTON[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_SWITCH">
+         <obj_property name="ElementShortName">BOARD_SWITCH[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_SWITCH[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/BOARD_VGA_HSYNC">
+         <obj_property name="ElementShortName">BOARD_VGA_HSYNC</obj_property>
+         <obj_property name="ObjectShortName">BOARD_VGA_HSYNC</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/BOARD_VGA_VSYNC">
+         <obj_property name="ElementShortName">BOARD_VGA_VSYNC</obj_property>
+         <obj_property name="ObjectShortName">BOARD_VGA_VSYNC</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_VGA_R">
+         <obj_property name="ElementShortName">BOARD_VGA_R[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_VGA_R[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_VGA_G">
+         <obj_property name="ElementShortName">BOARD_VGA_G[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_VGA_G[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/BOARD_VGA_B">
+         <obj_property name="ElementShortName">BOARD_VGA_B[3:0]</obj_property>
+         <obj_property name="ObjectShortName">BOARD_VGA_B[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/BOARD_UART_RX">
+         <obj_property name="ElementShortName">BOARD_UART_RX</obj_property>
+         <obj_property name="ObjectShortName">BOARD_UART_RX</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/BOARD_UART_TX">
+         <obj_property name="ElementShortName">BOARD_UART_TX</obj_property>
+         <obj_property name="ObjectShortName">BOARD_UART_TX</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group182">
+      <obj_property name="label">Memory Interface</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="divider331" type="divider">
+         <obj_property name="label">INSTR MEM CTRL</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/instr_mem_ctrl/state">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/instr_mem_ctrl/core">
+         <obj_property name="ElementShortName">core</obj_property>
+         <obj_property name="ObjectShortName">core</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/instr_mem_ctrl/core_selected">
+         <obj_property name="ElementShortName">core_selected</obj_property>
+         <obj_property name="ObjectShortName">core_selected</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/INSTR_REQ">
+         <obj_property name="ElementShortName">INSTR_REQ</obj_property>
+         <obj_property name="ObjectShortName">INSTR_REQ</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/INSTR_GNT">
+         <obj_property name="ElementShortName">INSTR_GNT</obj_property>
+         <obj_property name="ObjectShortName">INSTR_GNT</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/INSTR_R_VALID">
+         <obj_property name="ElementShortName">INSTR_R_VALID</obj_property>
+         <obj_property name="ObjectShortName">INSTR_R_VALID</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/INSTR_ADR">
+         <obj_property name="ElementShortName">INSTR_ADR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INSTR_ADR[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/INSTR_READ">
+         <obj_property name="ElementShortName">INSTR_READ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">INSTR_READ[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="divider332" type="divider">
+         <obj_property name="label">DATA MEM CTRL</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/data_mem_ctrl/state">
+         <obj_property name="ElementShortName">state[1:0]</obj_property>
+         <obj_property name="ObjectShortName">state[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/data_mem_ctrl/core">
+         <obj_property name="ElementShortName">core</obj_property>
+         <obj_property name="ObjectShortName">core</obj_property>
+         <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/data_mem_ctrl/core_selected">
+         <obj_property name="ElementShortName">core_selected</obj_property>
+         <obj_property name="ObjectShortName">core_selected</obj_property>
+         <obj_property name="CustomSignalColor">#DCDCDC</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/DATA_REQ">
+         <obj_property name="ElementShortName">DATA_REQ</obj_property>
+         <obj_property name="ObjectShortName">DATA_REQ</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/DATA_WRITE_ENABLE">
+         <obj_property name="ElementShortName">DATA_WRITE_ENABLE</obj_property>
+         <obj_property name="ObjectShortName">DATA_WRITE_ENABLE</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/DATA_BE">
+         <obj_property name="ElementShortName">DATA_BE[3:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_BE[3:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/DATA_GNT">
+         <obj_property name="ElementShortName">DATA_GNT</obj_property>
+         <obj_property name="ObjectShortName">DATA_GNT</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/system/DATA_R_VALID">
+         <obj_property name="ElementShortName">DATA_R_VALID</obj_property>
+         <obj_property name="ObjectShortName">DATA_R_VALID</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/DATA_ADR">
+         <obj_property name="ElementShortName">DATA_ADR[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_ADR[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/DATA_WRITE">
+         <obj_property name="ElementShortName">DATA_WRITE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_WRITE[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/system/DATA_READ">
+         <obj_property name="ElementShortName">DATA_READ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DATA_READ[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFD700</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group315">
+      <obj_property name="label">INSTR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="group" fp_name="group317">
+         <obj_property name="label">PROC0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/instruction_cache0/cached_instr_adr">
+            <obj_property name="ElementShortName">cached_instr_adr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_adr[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/hit">
+            <obj_property name="ElementShortName">hit</obj_property>
+            <obj_property name="ObjectShortName">hit</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/cached_instr_req">
+            <obj_property name="ElementShortName">cached_instr_req</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/cached_instr_gnt">
+            <obj_property name="ElementShortName">cached_instr_gnt</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/cached_instr_rvalid">
+            <obj_property name="ElementShortName">cached_instr_rvalid</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_rvalid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/instr_req">
+            <obj_property name="ElementShortName">instr_req</obj_property>
+            <obj_property name="ObjectShortName">instr_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/instr_gnt">
+            <obj_property name="ElementShortName">instr_gnt</obj_property>
+            <obj_property name="ObjectShortName">instr_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache0/instr_rvalid">
+            <obj_property name="ElementShortName">instr_rvalid</obj_property>
+            <obj_property name="ObjectShortName">instr_rvalid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group318">
+         <obj_property name="label">PROC1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/instruction_cache1/cached_instr_adr">
+            <obj_property name="ElementShortName">cached_instr_adr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_adr[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/hit">
+            <obj_property name="ElementShortName">hit</obj_property>
+            <obj_property name="ObjectShortName">hit</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/cached_instr_req">
+            <obj_property name="ElementShortName">cached_instr_req</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/cached_instr_gnt">
+            <obj_property name="ElementShortName">cached_instr_gnt</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/cached_instr_rvalid">
+            <obj_property name="ElementShortName">cached_instr_rvalid</obj_property>
+            <obj_property name="ObjectShortName">cached_instr_rvalid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/instr_req">
+            <obj_property name="ElementShortName">instr_req</obj_property>
+            <obj_property name="ObjectShortName">instr_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/instr_gnt">
+            <obj_property name="ElementShortName">instr_gnt</obj_property>
+            <obj_property name="ObjectShortName">instr_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/instruction_cache1/instr_rvalid">
+            <obj_property name="ElementShortName">instr_rvalid</obj_property>
+            <obj_property name="ObjectShortName">instr_rvalid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group316">
+      <obj_property name="label">DATA</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="group" fp_name="group319">
+         <obj_property name="label">PROC0</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc0_read">
+            <obj_property name="ElementShortName">proc0_read[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc0_read[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc0_write">
+            <obj_property name="ElementShortName">proc0_write[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc0_write[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc0_adr">
+            <obj_property name="ElementShortName">proc0_adr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc0_adr[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc0_req">
+            <obj_property name="ElementShortName">proc0_req</obj_property>
+            <obj_property name="ObjectShortName">proc0_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc0_gnt">
+            <obj_property name="ElementShortName">proc0_gnt</obj_property>
+            <obj_property name="ObjectShortName">proc0_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc0_r_valid">
+            <obj_property name="ElementShortName">proc0_r_valid</obj_property>
+            <obj_property name="ObjectShortName">proc0_r_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc0_write_enable">
+            <obj_property name="ElementShortName">proc0_write_enable</obj_property>
+            <obj_property name="ObjectShortName">proc0_write_enable</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc0_be">
+            <obj_property name="ElementShortName">proc0_be[3:0]</obj_property>
+            <obj_property name="ObjectShortName">proc0_be[3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group320">
+         <obj_property name="label">PROC1</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc1_read">
+            <obj_property name="ElementShortName">proc1_read[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc1_read[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc1_write">
+            <obj_property name="ElementShortName">proc1_write[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc1_write[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc1_adr">
+            <obj_property name="ElementShortName">proc1_adr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">proc1_adr[31:0]</obj_property>
+            <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc1_req">
+            <obj_property name="ElementShortName">proc1_req</obj_property>
+            <obj_property name="ObjectShortName">proc1_req</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc1_gnt">
+            <obj_property name="ElementShortName">proc1_gnt</obj_property>
+            <obj_property name="ObjectShortName">proc1_gnt</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc1_r_valid">
+            <obj_property name="ElementShortName">proc1_r_valid</obj_property>
+            <obj_property name="ObjectShortName">proc1_r_valid</obj_property>
+            <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/system/data_mem_ctrl/proc1_write_enable">
+            <obj_property name="ElementShortName">proc1_write_enable</obj_property>
+            <obj_property name="ObjectShortName">proc1_write_enable</obj_property>
+            <obj_property name="CustomSignalColor">#A0A0A4</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/system/data_mem_ctrl/proc1_be">
+            <obj_property name="ElementShortName">proc1_be[3:0]</obj_property>
+            <obj_property name="ObjectShortName">proc1_be[3:0]</obj_property>
+            <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+            <obj_property name="UseCustomSignalColor">true</obj_property>
+            <obj_property name="Radix">BINARYRADIX</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+</wave_config>
+

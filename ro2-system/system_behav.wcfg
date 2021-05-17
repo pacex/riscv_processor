@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="system_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="system" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1640000000fs"></ZoomStartTime>
+      <ZoomEndTime time="14270000001fs"></ZoomEndTime>
+      <Cursor1Time time="3745000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="224"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="36" />
+   <wvobject type="logic" fp_name="/system/BOARD_CLK">
+      <obj_property name="ElementShortName">BOARD_CLK</obj_property>
+      <obj_property name="ObjectShortName">BOARD_CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/BOARD_RESN">
+      <obj_property name="ElementShortName">BOARD_RESN</obj_property>
+      <obj_property name="ObjectShortName">BOARD_RESN</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_LED">
+      <obj_property name="ElementShortName">BOARD_LED[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_LED[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_LED_RGB0">
+      <obj_property name="ElementShortName">BOARD_LED_RGB0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_LED_RGB0[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_LED_RGB1">
+      <obj_property name="ElementShortName">BOARD_LED_RGB1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_LED_RGB1[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_BUTTON">
+      <obj_property name="ElementShortName">BOARD_BUTTON[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_BUTTON[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_SWITCH">
+      <obj_property name="ElementShortName">BOARD_SWITCH[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_SWITCH[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/BOARD_VGA_HSYNC">
+      <obj_property name="ElementShortName">BOARD_VGA_HSYNC</obj_property>
+      <obj_property name="ObjectShortName">BOARD_VGA_HSYNC</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/BOARD_VGA_VSYNC">
+      <obj_property name="ElementShortName">BOARD_VGA_VSYNC</obj_property>
+      <obj_property name="ObjectShortName">BOARD_VGA_VSYNC</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_VGA_R">
+      <obj_property name="ElementShortName">BOARD_VGA_R[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_VGA_R[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_VGA_G">
+      <obj_property name="ElementShortName">BOARD_VGA_G[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_VGA_G[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/BOARD_VGA_B">
+      <obj_property name="ElementShortName">BOARD_VGA_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BOARD_VGA_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/BOARD_UART_RX">
+      <obj_property name="ElementShortName">BOARD_UART_RX</obj_property>
+      <obj_property name="ObjectShortName">BOARD_UART_RX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/BOARD_UART_TX">
+      <obj_property name="ElementShortName">BOARD_UART_TX</obj_property>
+      <obj_property name="ObjectShortName">BOARD_UART_TX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/CPU_CLK">
+      <obj_property name="ElementShortName">CPU_CLK</obj_property>
+      <obj_property name="ObjectShortName">CPU_CLK</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/CPU_RES">
+      <obj_property name="ElementShortName">CPU_RES</obj_property>
+      <obj_property name="ObjectShortName">CPU_RES</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/INSTR_READ">
+      <obj_property name="ElementShortName">INSTR_READ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_READ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/INSTR_ADR">
+      <obj_property name="ElementShortName">INSTR_ADR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INSTR_ADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/INSTR_REQ">
+      <obj_property name="ElementShortName">INSTR_REQ</obj_property>
+      <obj_property name="ObjectShortName">INSTR_REQ</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/INSTR_GNT">
+      <obj_property name="ElementShortName">INSTR_GNT</obj_property>
+      <obj_property name="ObjectShortName">INSTR_GNT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/INSTR_R_VALID">
+      <obj_property name="ElementShortName">INSTR_R_VALID</obj_property>
+      <obj_property name="ObjectShortName">INSTR_R_VALID</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/DATA_READ">
+      <obj_property name="ElementShortName">DATA_READ[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_READ[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/DATA_WRITE">
+      <obj_property name="ElementShortName">DATA_WRITE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WRITE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/DATA_ADR">
+      <obj_property name="ElementShortName">DATA_ADR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_ADR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/DATA_REQ">
+      <obj_property name="ElementShortName">DATA_REQ</obj_property>
+      <obj_property name="ObjectShortName">DATA_REQ</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/DATA_GNT">
+      <obj_property name="ElementShortName">DATA_GNT</obj_property>
+      <obj_property name="ObjectShortName">DATA_GNT</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/DATA_R_VALID">
+      <obj_property name="ElementShortName">DATA_R_VALID</obj_property>
+      <obj_property name="ObjectShortName">DATA_R_VALID</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/DATA_WRITE_ENABLE">
+      <obj_property name="ElementShortName">DATA_WRITE_ENABLE</obj_property>
+      <obj_property name="ObjectShortName">DATA_WRITE_ENABLE</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/DATA_BE">
+      <obj_property name="ElementShortName">DATA_BE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_BE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/IRQ">
+      <obj_property name="ElementShortName">IRQ</obj_property>
+      <obj_property name="ObjectShortName">IRQ</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/IRQ_ID">
+      <obj_property name="ElementShortName">IRQ_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IRQ_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/IRQ_ACK">
+      <obj_property name="ElementShortName">IRQ_ACK</obj_property>
+      <obj_property name="ObjectShortName">IRQ_ACK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/IRQ_ACK_ID">
+      <obj_property name="ElementShortName">IRQ_ACK_ID[4:0]</obj_property>
+      <obj_property name="ObjectShortName">IRQ_ACK_ID[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/system/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/processor/PC/PC_OUT">
+      <obj_property name="ElementShortName">PC_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/system/processor/INSTR_REG/Q">
+      <obj_property name="ElementShortName">Q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[31:0]</obj_property>
+   </wvobject>
+</wave_config>
